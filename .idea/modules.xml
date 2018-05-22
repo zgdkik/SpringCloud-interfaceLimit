@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ceshi/ceshi.iml" filepath="$PROJECT_DIR$/ceshi/ceshi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter6.iml" filepath="$PROJECT_DIR$/chapter6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-client/config-client.iml" filepath="$PROJECT_DIR$/config-client/config-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-zuul/config-zuul.iml" filepath="$PROJECT_DIR$/config-zuul/config-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/providerA/providerA.iml" filepath="$PROJECT_DIR$/providerA/providerA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/providerB/providerB.iml" filepath="$PROJECT_DIR$/providerB/providerB.iml" />
+    </modules>
+  </component>
+</project>

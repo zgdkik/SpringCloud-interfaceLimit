@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: service-b
+server:
+  port: 8900
+  address: 192.168.1.42
+eureka:
+  client:
+    service-url:
+      defaultZone: http://root:booszy@192.168.1.42:8761/eureka
+  instance:
+    prefer-ip-address: true
+    instance-id: ${server.address}:${server.port}

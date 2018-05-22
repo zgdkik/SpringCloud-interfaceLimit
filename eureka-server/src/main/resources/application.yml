@@ -1,0 +1,17 @@
+server:
+  port: 8761
+eureka:
+  instance:
+    hostname: 192.168.1.42
+  server:
+    enable-self-preservation: false #关闭保护机制
+  client:
+    healthcheck:
+      enabled: true
+    service-url:
+      defaultZone: http://root:booszy@${eureka.instance.hostname}:${server.port}/eureka
+    register-with-eureka: false
+    fetch-registry: false
+#  server:
+#    enable-self-preservation: true #生成环境关闭
+#    eviction-interval-timer-in-ms: 60000 #同上
